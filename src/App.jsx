@@ -1,13 +1,12 @@
-import DataImage, { listTools, listProyek } from "./data";
-import {} from "./data";
+import { listTools, listProyek } from './data.js';
 
 function App() {
   return (
-      <>
+    <>
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
-            <img src="foto_diri.png" alt="Hero Image" className="w-10 rounded-md" loading="lazy"></img>
+            <img src="/assets/foto_diri.png" alt="Hero Image" className="w-10 rounded-md" loading="lazy"></img>
             <q>Tujuan yang indah, lahir dari tekat yang kuat🔥</q>  
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Muhammad Rafly Dwi Gunawan</h1>
@@ -17,18 +16,18 @@ function App() {
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">Lihat Proyek <i className="ri-arrow-down-circle-line ri-lg"></i></a>
           </div>
         </div>
-          <img src="fotoRapih.png" alt="Hero Image" className="w-[500px] rounded md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"></img>
+          <img src="/assets/fotoRapih.png" alt="Hero Image" className="w-[500px] rounded md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"></img>
       </div>
 
       {/* Tentang */}
       <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-          <img src="foto_diri.png" alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy"></img>
+          <img src="/assets/foto_diri.png" alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy"></img>
           <p className="text-base/loose mb-10">Hi, Saya mahasiswa Program Studi Sistem Informasi, Fakultas Ilmu Komputer,
             Universitas Singaperbangsa Karawang. Saya adalah seorang mahasiswa yang cepat beradaptasi dan memiliki keingintahuan yang kuat tentang berbagai hal. Saya memiliki ketertarikan pada desain UI/UX, Software Engineering, Web Development
             dan pemanfaatan teknologi informasi untuk meningkatkan efisiensi dan inovasi.</p>
             <div className="flex items-center justify-between">
-              <img src="foto_diri.png" alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy"></img>
+              <img src="/assets/foto_diri.png" alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy"></img>
               <div className="flex items-center gap-6">
                 <div>
                   <h1 className="text-4xl mb-1">3<span className="text-violet-500">+</span></h1>
@@ -59,9 +58,9 @@ function App() {
           </div>
         </div>
       </div>
-       {/* Tentang */}
+      {/* Tentang */}
 
-       {/* Proyek */}
+      {/* Proyek */}
       <div className="proyek mt-32 py-10" id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Proyek</h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">Berikut ini beberapa proyek yang telah saya buat</p>
@@ -85,10 +84,10 @@ function App() {
             ))}
         </div>
       </div>
-       {/* Proyek */}
+      {/* Proyek */}
 
-       {/* Kontak */}
-       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
+      {/* Kontak */}
+      <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Kontak</h1>
         <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">Mari terhubung dengan saya</p>
         <form action="https://formsubmit.co/mraflyyydwiii@gmail.com" method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-once="true">
@@ -110,9 +109,9 @@ function App() {
             </div>
           </div>
         </form>
-       </div>
-       {/* Kontak */}
-      </>
+      </div>
+      {/* Kontak */}
+    </>
   );
 }
 

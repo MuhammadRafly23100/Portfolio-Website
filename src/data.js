@@ -1,107 +1,89 @@
-import HeroImage from "/assets/hero-img.webp";
-
-const Image = {
-  HeroImage,
+// Data untuk Hero Image
+export const heroData = {
+  image: "/assets/hero-img.webp",
 };
 
-export default Image;
-
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/php.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-
+// Data untuk daftar Tools
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
+    gambar: "/assets/tools/vscode.png",
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
+    gambar: "/assets/tools/reactjs.png",
     nama: "React JS",
     ket: "Framework",
     dad: "200",
   },
-
   {
     id: 4,
-    gambar: Tools4,
+    gambar: "/assets/tools/tailwind.png",
     nama: "Tailwind CSS",
     ket: "Framework",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
+    gambar: "/assets/tools/bootstrap.png",
     nama: "Bootstrap",
     ket: "Framework",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools6,
+    gambar: "/assets/tools/js.png",
     nama: "Javascript",
     ket: "Language",
     dad: "600",
   },
   {
     id: 7,
-    gambar: Tools7,
+    gambar: "/assets/tools/php.png",
     nama: "PHP",
     ket: "Language",
     dad: "700",
   },
   {
     id: 8,
-    gambar: Tools8,
+    gambar: "/assets/tools/github.png",
     nama: "Github",
     ket: "Repository",
     dad: "800",
   },
-  
   {
     id: 10,
-    gambar: Tools10,
+    gambar: "/assets/tools/canva.png",
     nama: "Canva",
     ket: "Design App",
     dad: "1000",
   },
   {
     id: 11,
-    gambar: Tools11,
+    gambar: "/assets/tools/figma.png",
     nama: "Figma",
     ket: "Design App",
     dad: "1100",
   },
 ];
 
-import Proyek1 from "/assets/proyek/porto1.webp";
-import Proyek2 from "/assets/proyek/porto2.webp";
-import Proyek3 from "/assets/proyek/porto3.webp";
-
-
+// Data untuk daftar Proyek
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
+    gambar: "/assets/proyek/porto1.webp",
     nama: "Website Monitoring MBG",
     desk: "Website yang dirancang untuk memonitoring distribusi Makan Bergizi Gratis (MBG)",
     tools: ["HTML", "CSS", "PHP Native", "Bootstrap"],
     dad: "200",
-    link:"https://monitoringmbg.my.id/",
+    link: "https://monitoringmbg.my.id/",
   },
   {
     id: 2,
-    gambar: Proyek2,
+    gambar: "/assets/proyek/porto2.webp",
     nama: "Sites Craft",
     desk: "Design Aplikasi Marketplace produk daur ulang berkualitas tinggi",
     tools: ["Figma"],
@@ -110,12 +92,11 @@ export const listProyek = [
   },
   {
     id: 3,
-    gambar: Proyek3,
+    gambar: "/assets/proyek/porto3.webp",
     nama: "SiLapor",
     desk: "Sebuah Website yang dibuat untuk wadah untuk mahasiswa Fakultas Ilmu Komputer Unsika melaporkan aspirasinya",
     tools: ["HTML", "CSS", "PHP Native", "Bootstrap"],
     dad: "400",
     link: "https://github.com/DithaAlfariz/Kelompok2PBW.git",
   },
-  
 ];
